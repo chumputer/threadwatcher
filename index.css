@@ -145,3 +145,25 @@ body {
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
 }
+
+/* ===== Scrollbar CSS ===== */
+/* Firefox */
+* {
+  scrollbar-width: auto;
+  scrollbar-color: #538fd8 rgba(129, 229, 253, 0.2);
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 14px;
+}
+
+*::-webkit-scrollbar-track {
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 45%, rgba(129, 229, 253, 0.8), rgba(129, 229, 253, 0.8), rgba(0, 0, 0, 0) 55%, rgba(0, 0, 0, 0) 100%);
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #538fd8;
+  border-radius: 14px;
+  border: 0px none #538fd8;
+}
