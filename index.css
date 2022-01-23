@@ -37,6 +37,11 @@ body {
     height: 40px;
 }
 
+#inputs > div > div:first-child,
+.main > div:first-child {
+  flex: 2;
+}
+
 .comments {
     height: 100%;
 }
@@ -65,7 +70,6 @@ body {
 }
 
 .contentcol {
-    width: 33%;
 }
 
 .main {
