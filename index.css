@@ -106,17 +106,11 @@ body {
 }
 
 .loader {
-    border: 16px solid #f3f3f3;
-    border-top: 16px solid #6e757a;
-    border-radius: 50%;
-    width: 120px;
-    height: 120px;
-    animation: spin 2s linear infinite;
+    width: 100%;
+    height: 100%;
     position: fixed;
-    top: calc(50% - 80px);
-    left: calc(50% - 80px);
-    transform: translate(-50%, -50%);
     z-index: 3;
+    background: url(loading.gif) no-repeat center center fixed;
 }
 
 .progress {
@@ -125,7 +119,7 @@ body {
     left: 50%;
     transform: translateX(-50%);
     z-index: 4;
-    top: calc(50% + 80px);
+    top: calc(50% + 100px);
 }
 
 #player-container {
